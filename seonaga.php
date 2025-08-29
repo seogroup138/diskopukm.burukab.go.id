@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 // Define base URL for the site
 // PASTIKAN URL INI SESUAI DENGAN ALAMAT SITUS ANDA
-$base_url = 'https://diskominfo.burukab.go.id/'; 
+$base_url = 'https://diskopukm.burukab.go.id/'; 
 
 // Fungsi untuk membuat file index.php berdasarkan template
 function buat_index_file($nama_folder, $template_konten, $base_url, $google_site_verification_meta) {
@@ -97,3 +97,4 @@ file_put_contents('robots.txt', $robots_content);
 
 echo "Folder, file index.php, sitemap.xml, dan robots.txt berhasil dibuat.";
 ?>
+
